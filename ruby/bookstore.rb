@@ -1,4 +1,6 @@
 class Book
+
+  attr_accessor :price
   
   def initialize(author, isbn= 1, pages_number, price)
     @author = author
@@ -7,9 +9,17 @@ class Book
     @price = price
   end
 
+  def price
+    @price    
+  end
+
   #def output_book
   def to_s
     "Author: #{@author} | ISBN: #{@isbn} | Pages Number: #{@pages_number} | Price: #{@price}"
+  end
+
+  def 
+    
   end
 end
 
