@@ -13,6 +13,10 @@ class Book
     @price    
   end
 
+  def price(price)
+    @price = price    
+  end
+
   #def output_book
   def to_s
     "Author: #{@author} | ISBN: #{@isbn} | Pages Number: #{@pages_number} | Price: #{@price}"
